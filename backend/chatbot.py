@@ -28,7 +28,7 @@ mistral_client = Mistral(api_key=MISTRAL_API_KEY)
 INDEX_PATH = r"vectorstore\index.faiss"
 CHUNKS_PATH = r"processed\chunks.jsonl"
 
-EMBED_MODEL = "all-MiniLM-L6-v2"  # must match ingestion.py
+EMBED_MODEL = "all-MiniLM-L6-v2"  # should match ingestion.py
 
 index = faiss.read_index(INDEX_PATH)
 with open(CHUNKS_PATH, "r", encoding="utf-8") as f:
