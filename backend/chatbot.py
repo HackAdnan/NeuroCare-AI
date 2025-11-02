@@ -12,7 +12,7 @@ from langchain.memory import ConversationBufferMemory
 # ⚙️ FIX: update deprecated import
 from langchain_community.chat_models import ChatOpenAI
 
-# ⚙️ FIX: use new Mistral client import
+# ⚙️ FIX 2: use new Mistral client import
 from mistralai import Mistral
 
 
