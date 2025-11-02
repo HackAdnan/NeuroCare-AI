@@ -17,7 +17,7 @@ from mistralai import Mistral
 
 
 # ──────────────────────────────
-# 1. Environment + Setup
+# 1. Environment + Key Setups
 # ──────────────────────────────
 load_dotenv()
 
