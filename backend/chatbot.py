@@ -9,7 +9,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.docstore.document import Document
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
-# ⚙️ FIX: update deprecated import
+# ⚙️ FIX 2: update deprecated import
 from langchain_community.chat_models import ChatOpenAI
 
 # ⚙️ FIX 2: use new Mistral client import
