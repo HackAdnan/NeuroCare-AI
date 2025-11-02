@@ -35,7 +35,7 @@ with open(CHUNKS_PATH, "r", encoding="utf-8") as f:
     chunks = [json.loads(line) for line in f]
 
 # ──────────────────────────────
-# 2. Load FAISS index + embeddings
+# 2. Load FAISS index + embedding
 # ──────────────────────────────
 print("🔍 Loading FAISS index and chunks...")
 
